@@ -7,7 +7,7 @@ function Header({gastos, setGastos,presupuesto, setPresupuesto,isValidPresupuest
   
   return (
     <header>
-        <h1>Planificador de Gastos</h1>
+        <h1>Planificador de Presupuesto</h1>
         {
           isValidPresupuesto ? (
             <ControlPresupuesto
